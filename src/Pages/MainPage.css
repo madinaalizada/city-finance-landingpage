@@ -1,0 +1,11 @@
+.main-page {
+    width: 80%;
+    /* border: 1px solid red; */
+    position: absolute;
+    left: 20%;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: row;
+}
