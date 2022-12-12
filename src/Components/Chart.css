@@ -1,0 +1,32 @@
+.chart-container{
+    position: absolute;
+    z-index: 54;
+    border: 1px solid red;
+    top: 45vh;
+    width: 65%;
+    height: auto;
+    margin-left: 5px;
+    background-color: white;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.chart-title {
+    color: #777D8B;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+}
+#chart-value {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #191C1F;;
+}
+
+#chart-month {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color:  #777D8B;
+}

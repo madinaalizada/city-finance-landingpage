@@ -11,6 +11,7 @@ import img5 from '../images/stories/img5.png';
 import img6 from '../images/stories/img6.png';
 import img7 from '../images/stories/img7.png';
 import CompanyCard from '../Components/CompanyCard';
+import Chart from '../Components/Chart';
 
 const MainPage = () => {
   
@@ -101,6 +102,7 @@ const stories = [
       <Header/>
 	  <div className='right-section'>
       	<Stories stories={stories}/>
+		<Chart/>
 		<CompanyCard/>
 	  </div>
     </div>

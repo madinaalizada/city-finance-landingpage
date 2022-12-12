@@ -9,3 +9,8 @@
     display: flex;
     flex-direction: row;
 }
+
+.stories-charts {
+    display: flex;
+    flex-direction: column;
+}
