@@ -11,7 +11,7 @@ import img5 from '../images/stories/img5.png';
 import img6 from '../images/stories/img6.png';
 import img7 from '../images/stories/img7.png';
 import CompanyCard from '../Components/CompanyCard';
-import Chart from '../Components/Chart';
+import Chart from '../Components/Chart1';
 
 const MainPage = () => {
   
@@ -97,12 +97,15 @@ const stories = [
 	}
 	
 ];
+
+
   return (
     <div className='main-page'>
       <Header/>
 	  <div className='right-section'>
       	<Stories stories={stories}/>
-		<Chart/>
+		  <Chart/>,
+
 		<CompanyCard/>
 	  </div>
     </div>

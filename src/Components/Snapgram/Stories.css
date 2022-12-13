@@ -233,7 +233,7 @@ h5 {
 	transform-origin: top left;
 	transition: 0.25s;
 	position: absolute;
-	top: -15vh;
+	top: -10vh;
 	/* left: 3px; */
 	left: -20vw;
 	width: calc(99vw);
@@ -417,11 +417,12 @@ h5 {
 	width: 42px;
 	height: 42px;
 	display: inline-block;
-	margin-right: 12px;
 	border-radius: 50%;
 	vertical-align: middle;
 	background-repeat: no-repeat;
 	background-position: center;
+	margin-left: 20px;
+	margin-top: 5px;
 }
 
 #zuck-modal-content .story-viewer .head .img:before {
@@ -613,4 +614,8 @@ h5 {
 	#zuck-modal-content .story-viewer .head .left .time, #zuck-modal-content .story-viewer .head .right .close {
 		display: block;
 	}
+}
+
+#zuck-modal-content .story-viewer .head .left .time, #zuck-modal-content .story-viewer .head .right .close {
+	padding-right: 20px;
 }
