@@ -18,6 +18,7 @@ import enplus from '../images/icontable/enplus.svg';
 import CompanyCard from '../Components/CompanyCard';
 import Chart from '../Components/Chart';
 import StatisticTable from '../Components/StatisticTable';
+import Campaigns from '../Components/Campaigns';
 
 const MainPage = () => {
   
@@ -119,8 +120,9 @@ const stories = [
 		</div>
 		<CompanyCard/>
 	  </div>
+	  <Campaigns/>
     </div>
   )
 }
 
-export default MainPage
+export default MainPage;
