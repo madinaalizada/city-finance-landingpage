@@ -10,8 +10,14 @@ import img4 from '../images/stories/img4.png';
 import img5 from '../images/stories/img5.png';
 import img6 from '../images/stories/img6.png';
 import img7 from '../images/stories/img7.png';
+
+
+import deminus from '../images/icontable/deminus.svg';
+import enminus from '../images/icontable/enminus.svg';
+import enplus from '../images/icontable/enplus.svg';
 import CompanyCard from '../Components/CompanyCard';
-import Chart from '../Components/Chart1';
+import Chart from '../Components/Chart';
+import StatisticTable from '../Components/StatisticTable';
 
 const MainPage = () => {
   
@@ -98,14 +104,19 @@ const stories = [
 	
 ];
 
-
   return (
     <div className='main-page'>
       <Header/>
 	  <div className='right-section'>
+		<div className="right-left-section">
       	<Stories stories={stories}/>
-		  <Chart/>,
-
+		<Chart/>
+		<div className="statistic-tables-container">
+			<StatisticTable headerTitle="Aggreement" month="January" p1icon={deminus} p1text="Gözləmədə" p1percent="8%" p2icon={enminus} p2text="İcra edildi" p2percent="92%"/>
+			<StatisticTable headerTitle="Regress" month="January" p1icon={deminus} p1text="Gözləmədə" p1percent="46%" p2icon={deminus} p2text="İcra edildi" p2percent="54%"/>
+			<StatisticTable headerTitle="Financial support" month="January" p1icon={enplus} p1text="Gecikməli" p1percent="20%" p2icon={deminus} p2text="Ödəyir" p2percent="80%"/>
+		</div>
+		</div>
 		<CompanyCard/>
 	  </div>
     </div>

@@ -1,8 +1,8 @@
 import React from 'react';
-import square from '../images/sidebar/squ.png'
-import ferrum from '../images/sidebar/ferrum.png'
-import down from '../images/sidebar/Vector.jpg'
-import questionIcon from '../images/sidebar/question.png';
+import square from '../images/sidebar/squ.svg'
+import ferrum from '../images/sidebar/ferrum.svg'
+import down from '../images/sidebar/Vector.svg'
+import questionIcon from '../images/sidebar/Icon.svg';
 import './SideBar.css';
 
 const SideBar = () => {

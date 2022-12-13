@@ -8,9 +8,31 @@
 .right-section {
     display: flex;
     flex-direction: row;
+    width: 99%;
+    /* border: 1px solid purple; */
+    padding-top: 20px;
+
+}
+
+.right-left-section {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    position: relative;
+    top: 5px;
+    /* border: 1px solid green; */
+    z-index: 4567890;
 }
 
 .stories-charts {
     display: flex;
     flex-direction: column;
+}
+
+.statistic-tables-container {
+    display: flex;
+    flex-direction: row;
+    width: 97%;
+    /* border: 1px solid red; */
+    justify-content: space-between;
 }

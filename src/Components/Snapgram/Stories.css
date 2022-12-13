@@ -1,9 +1,8 @@
 #stories {
-	margin: 0;
+	margin: 0 20px 0 0;
 	padding: 0 0 0 10px;
-	width: 70%;
-	position: absolute;
-	top: 10vh;
+	width: 98%;
+	position: relative;
 }
 
 h5 {
@@ -11,8 +10,9 @@ h5 {
 	font-weight: 500;
 	line-height: 32px;
 	padding-left: 15px;
-	padding-top: 10px;
-	margin-bottom: 8px;
+	padding-top: 0px;
+	margin-bottom: 3px;
+	margin-top: 0;
 }
 
 .stories.carousel {
@@ -25,7 +25,7 @@ h5 {
 	flex-direction: row;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	padding: 10px;
+	padding: 10px 10px 0;
 }
 
 .stories.carousel::-webkit-scrollbar {
@@ -221,24 +221,27 @@ h5 {
 	bottom: 0;
 	position: absolute;
 	overflow: hidden;
+	
 }
 
 #zuck-modal * {
 	user-select: none;
 	outline: 0;
+	
 }
 
 #zuck-modal.with-effects {
 	transform: scale(0.01);
 	transform-origin: top left;
 	transition: 0.25s;
-	position: absolute;
-	top: -10vh;
+	position: fixed;
+	top: 0vh;
 	/* left: 3px; */
-	left: -20vw;
-	width: calc(99vw);
-	height: 100vh;
-	bottom: 0;
+	left: 0vw;
+	width: 98.8vw;
+	height: calc(100vh + 20px);
+	/* border: 2px solid red; */
+	z-index: 345678;
 }
 
 #zuck-modal.with-effects.animated {
@@ -275,6 +278,7 @@ h5 {
 
 #zuck-modal .slider > .viewing {
 	left: 100vw;
+
 }
 
 #zuck-modal .slider > .next {
