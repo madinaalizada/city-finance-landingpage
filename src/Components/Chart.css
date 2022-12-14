@@ -1,9 +1,10 @@
 .chart-container {
     width: 90%;
-    margin-left: 10px;
+    margin-left: 20px;
     background-color: white;
     padding: 0 20px 20px;
     border-radius: 5px;
+    margin-top: 12px;
 }
 
 .chart-title {

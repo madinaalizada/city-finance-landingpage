@@ -35,4 +35,6 @@
     width: 97%;
     /* border: 1px solid red; */
     justify-content: space-between;
+    margin-left: 12px;
+    margin-top: 12px;
 }
