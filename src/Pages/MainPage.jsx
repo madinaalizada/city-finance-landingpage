@@ -3,7 +3,7 @@ import Header from '../Components/Header';
 import Stories from '../Components/Snapgram/Stories';
 import './MainPage.css';
 
-import img1 from '../images/stories/img11.svg';
+import img1 from '../images/stories/img1.svg';
 import img2 from '../images/stories/img2.svg';
 import img3 from '../images/stories/img3.svg';
 import img4 from '../images/stories/img4.svg';
