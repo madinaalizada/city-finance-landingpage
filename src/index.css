@@ -3,6 +3,7 @@
 body {
   margin: 0;
   padding: 0;
+  padding-bottom: 10vh;
   font-family: Roboto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

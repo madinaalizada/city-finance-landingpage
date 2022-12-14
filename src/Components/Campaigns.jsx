@@ -3,6 +3,8 @@ import './Campaigns.css';
 import kam1 from '../images/price/kampaniya1.svg';
 import back from '../images/mercedes/background.svg';
 import mercedes from '../images/mercedes/mercedesimg.svg';
+import addCircle from '../images/price/add-circle.svg';
+import videoCircle from '../images/price/video-circle.svg';
 
 const Campaigns = () => {
   return (
@@ -26,6 +28,23 @@ const Campaigns = () => {
             <img src={back} className="car-back"/>
             <img src={mercedes} className="car-image"/>
           </div>
+        </div>
+        <div className="create-campaign-container">
+            <div className="campaign-container-context">
+              <p className='campaign-container-context-title'>Salam, City Finance</p>
+              <p className='campaign-container-context-text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+              <p className='campaign-container-context-subtitle'>*Kampaniya istiqamətləri: Lorem ipsum</p>
+            </div>
+            <div className="campaign-container-buttons">
+              <div className="campaign-container-button">
+                <img src={addCircle} alt="logo"/>
+                <p>Kampaniya yarat </p>
+              </div>
+              <div className="campaign-container-button">
+                <img src={videoCircle} alt="logo-video" />
+                <p>Necə etməli?</p>
+              </div>
+            </div>
         </div>
     </div>
   )
