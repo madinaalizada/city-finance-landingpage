@@ -55,11 +55,11 @@
 }
 
 .shortcut-section {
-    margin-right: 1vw;
+    margin-right: 7px;
     background-color: #233B82;
     border-radius: 15px;
-    padding: 3vh 2vw 3vh;
-    margin-left: 1.5vw;
+    padding: 12px 10px 10px 14px;
+    margin-left: 10px;
 }
 
 .shortcut-section img {
