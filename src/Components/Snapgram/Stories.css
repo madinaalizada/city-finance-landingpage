@@ -1,8 +1,9 @@
 #stories {
-	margin: 0 20px 0 0;
-	padding: 0 0 0 10px;
+	margin: 0 0 0 0;
+	padding: 0 0 0 8px;
 	width: 98%;
 	position: relative;
+	/* border: 1px solid red; */
 }
 
 h5 {
@@ -16,16 +17,16 @@ h5 {
 }
 
 .stories.carousel {
-	width: calc(95% - 30px);
+	width: calc(96% + 5px);
 	white-space: nowrap;
 	overflow: auto;
 	-webkit-overflow-scrolling: touch;
-	/* border: 1px solid red; */
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	padding: 10px 10px 0;
+	padding: 10px 8px 0;
+	/* border: 1px solid red; */
 }
 
 .stories.carousel::-webkit-scrollbar {
@@ -37,8 +38,7 @@ h5 {
 	display: inline-block;
 	width: 90%;
 	max-width: 80px;
-	margin: 0 6px;
-	/* padding: 3px; */
+	margin: 0;
 	filter: drop-shadow(0px 2px 5px #8a2121);
 	/* border: 1px solid black; */
 }

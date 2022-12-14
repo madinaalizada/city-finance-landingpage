@@ -23,7 +23,7 @@ const Campaigns = () => {
               <button className='btn-more'>ƏTRAFLI</button>
           </div>
           <div className="mercedes-photo-container">
-            <img src={back}/>
+            <img src={back} className="car-back"/>
             <img src={mercedes} className="car-image"/>
           </div>
         </div>

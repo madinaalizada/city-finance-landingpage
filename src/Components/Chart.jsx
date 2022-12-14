@@ -16,11 +16,7 @@ const Chart = () => {
             barThickness: 6,
             maxBarThickness: 8,
             minBarLength: 2,
-            data: [42000, 20000, 40000, 20000, 13700, 26900, 23000, 18000, 30000, 71000, 10800, 28682],
-            borderWidth: 1,
-            borderRadius: 20,
-            borderColor: "rgba(245, 246, 248, 1)",
-            borderSkipped: true,
+            data: [42000, 20000, 40000, 20000, 13700, 26900, 23000, 18000, 30000, 46100, 10800, 28682],
             hoverBackgroundColor: "#233B82"
           }
         ]

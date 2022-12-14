@@ -13,7 +13,7 @@
 
 .campaigns img {
     width: 98%;
-    margin-left: 10px;
+    margin-left: 13px;
     border-radius: 5px;
 }
 
@@ -41,18 +41,19 @@
     flex-direction: row;
     justify-content: space-between;
     width: 98%;
-    border: 1px solid red;
+    /* border: 1px solid purple; */
     align-items: stretch;
     background: #FFf;
     border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     margin-left: 10px;
     border-radius: 10px;
-    padding-bottom: 15px;
 }
 
 .mercedes-info-container {
     width: 40%;
-    padding: 10px 0 10px 15px;
+    padding: 10px 0 30px 15px;
 }
 
 .mercedes-photo-container {
@@ -60,15 +61,25 @@
     position: relative;
     object-fit: contain;
 }
-.mercedes-photo-container > img {
-    
-    object-fit: contain;
-}
 
 .car-image {
     position: absolute;
     right: 0px;
+    top: 0;
     object-fit: contain;
+    /* border: 1px solid red; */
+    height: 100%;
+}
+
+.car-back {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    object-fit: cover;
+}
+
+.mercedes-photo-container {
+    /* border: 1px solid green; */
 }
 
 .campaignn {

@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from '../images/companycard/cflogo.png';
-import call from '../images/companycard/call.png';
-import facebook from '../images/companycard/facebook.png';
-import global from '../images/companycard/global.png';
-import instagram from '../images/companycard/instagram.png';
-import sms from '../images/companycard/sms.png';
-import whatsapp from '../images/companycard/whatsapp.png';
-import map from '../images/companycard/map.png';
+import logo from '../images/companycard/cflogo.svg';
+import call from '../images/companycard/call.svg';
+import facebook from '../images/companycard/facebook.svg';
+import global from '../images/companycard/global.svg';
+import instagram from '../images/companycard/instagram.svg';
+import sms from '../images/companycard/sms.svg';
+import whatsapp from '../images/companycard/whatsapp.svg';
+import map from '../images/companycard/map.svg';
 import './CompanyCard.css';
 
 const CompanyCard = () => {
