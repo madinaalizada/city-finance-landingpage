@@ -3,13 +3,14 @@ import Header from '../Components/Header';
 import Stories from '../Components/Snapgram/Stories';
 import './MainPage.css';
 
-import img1 from '../images/stories/img1.png';
-import img2 from '../images/stories/img2.png';
-import img3 from '../images/stories/img3.png';
-import img4 from '../images/stories/img4.png';
-import img5 from '../images/stories/img5.png';
-import img6 from '../images/stories/img6.png';
-import img7 from '../images/stories/img7.png';
+import img1 from '../images/stories/img11.svg';
+import img2 from '../images/stories/img2.svg';
+import img3 from '../images/stories/img3.svg';
+import img4 from '../images/stories/img4.svg';
+import img5 from '../images/stories/img5.svg';
+import img6 from '../images/stories/img6.svg';
+import img7 from '../images/stories/img7.svg';
+import img8 from '../images/stories/img8.svg';
 
 
 import deminus from '../images/icontable/deminus.svg';
@@ -101,7 +102,16 @@ const stories = [
 		items: [
 			buildItem("ramon-1", "photo", 30000, 'https://images.unsplash.com/photo-1475113548554-5a36f1f523d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60', 'https://images.unsplash.com/photo-1475113548554-5a36f1f523d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60', '', false, 1492665454)
 		]
-	}
+	},
+	{
+	  id: "ramon8",
+		  picture: img8,
+		  title: "",
+		  lastUpdated: 1492665454,
+		  items: [
+			  buildItem("ramon-5", "photo", 30000, 'https://images.unsplash.com/photo-1475113548554-5a36f1f523d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60', 'https://images.unsplash.com/photo-1475113548554-5a36f1f523d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60', '', false, 1492665454)
+		  ]
+	  }
 	
 ];
 

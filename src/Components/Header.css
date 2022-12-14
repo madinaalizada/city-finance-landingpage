@@ -52,6 +52,7 @@
     border-radius: 50%;
     background-color: #F5F6F8;
     opacity: 0.7;
+    cursor: pointer;
 }
 
 .profile {
@@ -87,6 +88,7 @@
     flex-direction: row;
     align-items: center;
     width: 35%;
+    cursor: pointer;
 }
 
 .profile-photo .prof-photo {

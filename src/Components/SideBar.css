@@ -4,6 +4,7 @@
     position: fixed;
     background-color: #fff;
     padding-bottom: 8px;
+    height: 100%;
 }
 
 .header-logo {
@@ -23,7 +24,7 @@
     display: flex;
     flex-direction: column;
     padding: 3vh 0 0 0;
-    margin: 1vh 2vw 3vh;
+    margin: 1vh 2vw 4.5vh;
 }
 
 .list-sections-item {
@@ -41,6 +42,7 @@
     background-color: inherit;
     font-size: 16px;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .list-section-icon {
@@ -91,6 +93,7 @@
     border: none;
     border-radius: 12px;
     padding: 10px 0;
+    cursor: pointer;
 }
 
 .dropbtn {

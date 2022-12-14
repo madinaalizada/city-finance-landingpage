@@ -2,7 +2,7 @@ import React from 'react';
 import bellIcon from '../images/header/notification.svg';
 import calendar from '../images/header/calendar.svg';
 import mail from '../images/header/message.svg';
-import mountain from '../images/header/mountain.jpg'
+import mountain from '../images/header/mountain.svg'
 import vector from '../images/header/Vector.svg'
 import './Header.css';
 
