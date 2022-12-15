@@ -1,10 +1,12 @@
 .sidebar {
     width: 260px;
     /* border: 1px solid green; */
-    position: fixed;
+    position: relative;
+    top: -80px;
     background-color: #fff;
     padding-bottom: 12px;
     height: 100%;
+    left: 0;
 }
 
 .header-logo {

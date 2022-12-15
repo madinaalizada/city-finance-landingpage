@@ -19,6 +19,7 @@ import enplus from '../images/icontable/enplus.svg';
 import CompanyCard from '../Components/CompanyCard';
 import Chart from '../Components/Chart';
 import StatisticTable from '../Components/StatisticTable';
+import SideBar from '../Components/SideBar';
 
 const MainPage = () => {
   
@@ -115,18 +116,20 @@ const stories = [
 ];
 
   return (
-	  <div className='right-section'>
-		<div className="right-left-section">
-      	<Stories stories={stories}/>
-		<Chart/>
+	<div className='mainpage-container'>
+		<SideBar/>
+		<div className="mainsection-container">
+			<Stories stories={stories}/>
+			<Chart/>
 			<div className="statistic-tables-container">
 				<StatisticTable headerTitle="Aggreement" month="January" p1icon={deminus} p1text="Gözləmədə" p1percent="8%" p2icon={enminus} p2text="İcra edildi" p2percent="92%"/>
 				<StatisticTable headerTitle="Regress" month="January" p1icon={deminus} p1text="Gözləmədə" p1percent="46%" p2icon={deminus} p2text="İcra edildi" p2percent="54%"/>
 				<StatisticTable headerTitle="Financial support" month="January" p1icon={enplus} p1text="Gecikməli" p1percent="20%" p2icon={deminus} p2text="Ödəyir" p2percent="80%"/>
 			</div>
+			<Campaigns/>
 		</div>
 		<CompanyCard/>
-	  </div>
+	</div>
   )
 }
 

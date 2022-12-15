@@ -3,7 +3,7 @@
     /* padding-left: 260px; */
 
     /* width: 1132px; */
-    width: calc(100%);
+    /* width: calc(100%); */
     height: 590px;
     align-content: space-between;
     display: flex;
@@ -29,9 +29,10 @@
 }
 
 .campaigns img {
-    width: 100%;
+    /* width: 1152px; */
     /* margin-left: 19px; */
     border-radius: 5px;
+    height: 255px;
 }
 
 .campaign-header-title {
@@ -58,7 +59,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
+    /* width: 100%; */
     /* border: 1px solid purple; */
     align-items: stretch;
     background: #FFf;
@@ -68,23 +69,30 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+    height: 255px;
 }
 
 .mercedes-info-container {
-    width: 40%;
+    /* width: 40%; */
     padding: 32px 0 30px 30px;
+    /* height: 100%; */
 }
 
 .mercedes-photo-container {
-    width: 53%;
+    width: 40%;
     position: relative;
     object-fit: contain;
+    /* border: 1px solid purple; */
+    /* height: 100%; */
+    height: 255px;
+
 }
 
 .car-image {
     position: absolute;
     right: 0px;
     top: 0;
+    width: 100%;
     object-fit: contain;
     /* border: 1px solid red; */
     height: 100%;
@@ -92,9 +100,10 @@
 
 .car-back {
     height: 100%;
+
     width: 100%;
-    margin: 0;
-    object-fit: cover;
+    margin-left: 0;
+    object-fit: contain;
 }
 
 .campaignn {
@@ -123,7 +132,7 @@
     display: flex;
     flex-direction: row;
     /* justify-content: space-between; */
-    width: 64%;
+    /* width: 64%; */
 }
 
 .pop-item {
@@ -169,6 +178,7 @@
     color: white;
     font-family: 'Roboto';
     margin-bottom: 5vh;
+    height: 184px;
 }
 
 .campaign-container-context {
