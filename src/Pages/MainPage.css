@@ -1,8 +1,8 @@
 .main-page {
-    width: 80%;
+    width: calc(100% - 277px);
     /* border: 1px solid red; */
     position: absolute;
-    left: 20%;
+    left: 277px;
 }
 
 .right-section {

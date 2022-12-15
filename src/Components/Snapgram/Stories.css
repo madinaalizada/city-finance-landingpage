@@ -37,7 +37,7 @@ h5 {
 .stories.carousel .story {
 	display: inline-block;
 	width: 90%;
-	max-width: 80px;
+	max-width: 64px;
 	margin: 0;
 	/* filter: drop-shadow(0px 2px 5px #8a2121); */
 	/* border: 1px solid black; */

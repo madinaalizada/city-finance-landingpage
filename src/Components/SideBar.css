@@ -1,5 +1,5 @@
 .sidebar {
-    width: 20%;
+    /* width: 264px; */
     /* border: 1px solid green; */
     position: fixed;
     background-color: #fff;
@@ -24,7 +24,10 @@
     display: flex;
     flex-direction: column;
     padding: 3vh 0 0 0;
-    margin: 1vh 2vw 4.5vh 1.1vw;
+    margin: 1vh auto 4.5vh;
+}
+.sidebar button {
+    font-family: 'Roboto'!important;
 }
 
 .list-sections-item {
@@ -32,8 +35,11 @@
     flex-direction: row;
     align-items: baseline;
     border-radius: 10px;
-    padding: 12px 10px;
+    padding: 12px 12px;
+    width: 236px;
     margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 16px;
     font-weight: 400;
 }
@@ -57,11 +63,16 @@
 }
 
 .shortcut-section {
-    margin-right: 7px;
+    /* margin-right: 7px; */
     background-color: #233B82;
     border-radius: 15px;
-    padding: 12px 10px 10px 14px;
-    margin-left: 10px;
+    /* padding: 10px 0px 5px 12px; */
+    padding-left: 17px;
+    padding-top: 15px;
+    /* margin-left: 10px; */
+    width: 236px;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 .shortcut-section img {
@@ -89,7 +100,8 @@
     font-weight: 500;
     line-height: 20px;
     background-color: white;
-    width: 100%;
+    width: 204px;
+    margin: 0 auto 15px;
     border: none;
     border-radius: 12px;
     padding: 10px 0;
@@ -129,7 +141,7 @@
   }
 
 .active {
-    background-color: blue;
+    background-color: rgba(35, 59, 130, 1);
 }
 .active > * {
     color: white;
