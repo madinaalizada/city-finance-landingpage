@@ -79,35 +79,6 @@ class Stories extends Component {
 		};
 	}
 
-	componentDidMount() {
-		const {
-			backNative,
-			stories,
-		} = this.props;
-
-		// if (location.hash === '#!' + id) {
-		// 	location.hash = '';
-		// }
-		//
-		// if (q('#' + id + ' .story')) {
-		// 	each(timeline.querySelectorAll('.story'), function(i, story) {
-		// 		parseStory(story, true);
-		// 	});
-		// }
-		//
-		// if (backNative) {
-		// 	window.addEventListener('popstate', function(e) {
-		// 		if (location.hash !== '#!' + id) {
-		// 			location.hash = '';
-		// 		}
-		// 	}, false);
-		// }
-		//
-		// stories.forEach(item => this.add(item, true));
-		//
-		// updateStoryseenPosition();
-	}
-
 	saveLocalData (key, data) {
 		try {
 			if (this.props.localStorage) {
@@ -191,12 +162,6 @@ class Stories extends Component {
 	}
 
 	openModal(story) {
-		const {
-			backNative,
-		} = this.props;
-		// if (backNative) {
-		// 	location.hash = `#!${story.id}`;
-		// }
 		const items = story.items.map((item, itemIndex) => Object.assign(item, {
 			active: itemIndex === 0,
 		}));

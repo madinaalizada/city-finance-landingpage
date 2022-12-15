@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { Bar } from 'react-chartjs-2';
 import { Chart as Charts} from 'chart.js';
 import './Chart.css';
+import 'chartjs-top-round-bar';
 
 const Chart = () => {
   Charts.defaults.global.legend.display = false;
@@ -28,6 +29,8 @@ const Chart = () => {
       });
     
       const options = {
+        // cornerRadius: 20,
+        barRoundness: 0.3,
         responsive: true,
         onClick: (event, elements) => {
           if (elements[0] !== undefined) {

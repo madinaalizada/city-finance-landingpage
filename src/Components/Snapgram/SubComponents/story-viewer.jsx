@@ -59,7 +59,7 @@ class StoryViewer extends Component {
 				})}>
 					<div className="head">
 						<div className="left">
-							<a className="back" onClick={() => close()}>‹</a>
+							<a className="back" onClick={() => close()} href='/'>‹</a>
 							<u
 								className="img"
 								style={{
@@ -73,7 +73,7 @@ class StoryViewer extends Component {
 						<div className="right">
 							<span className="time">{story.timestamp}</span>
 							<span className="loading" />
-							<a className="close" onClick={() => close()}>×</a>
+							<a className="close" onClick={() => close()} href='/'>×</a>
 						</div>
 					</div>
 					<div className="slides-pointers">
