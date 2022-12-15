@@ -1,12 +1,13 @@
 .statistic-table-container {
     /* border: 1px solid red; */
-    margin-left: 10px;
-    margin-top: 14px;
-    width: 28%;
-    padding: 0px 15px 5px;
+    /* margin-left: 10px; */
+    width: calc(248px - 32px);
+    /* height: calc(192px - 32px); */
+    padding: 16px 16px 0 16px;
     background: #FFFFFF;
     box-shadow: 0px 2px 5px #F8F8F8;
     border-radius: 10px;
+    margin-bottom: 32px;
 }
 
 .statistic-table-header {
@@ -22,6 +23,7 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
+    margin-top: 0;
     color: #191C1F;
 }
 
@@ -30,17 +32,20 @@
     font-weight: 400;
     line-height: 20px;
     color: #777D8B;
+    margin-top: 0;
 }
 
 .table-part {
     display: flex;
     flex-direction: row;
-    margin-bottom: 10px;
+    margin-bottom: 0;
+    padding-bottom: 16px;
     /* justify-content: space-between; */
 }
 
 .table-part img {
-    margin-right: 7%;
+    width: 44px;
+    margin-right: 16px;
 }
 .table-part-1-info p {
     margin-bottom: 3px;
@@ -61,11 +66,9 @@
 }
 
 .table-part-line {
-    width: 10px;
+    width: 152px;
     height: 1px;
     background-color: #F5F6F8;
-    margin-bottom: 10px;
-    /* border: 1px solid red; */
-    width: 75%;
+    margin-bottom: 12px;
     margin-left: auto;
 }

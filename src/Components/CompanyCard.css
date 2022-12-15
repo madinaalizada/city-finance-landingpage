@@ -1,29 +1,27 @@
 .company-card {
-    width: 332px;
+    width: calc(332px);
     /* border: 1px solid red; */
-    position: relative;
-    top: 5px;
-    margin-left: 5px;
-    /* left: 72%; */
-    /* top: 15vh; */
-    /* margin-top: 30px; */
+    height: 657px;
 }
 
 .card-header {
     background: linear-gradient(278.26deg, #CC9C20 0%, #FFE600 100%);
-    height: 20vh;
+    height: calc(118px - 20px);
     position: relative;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    padding-top: 1px;
+    /* padding-top: 20px; */
+    width: 100%;
 }
 
 .card-header-title {
     background-color: inherit;
     color: white;
-    padding: 8px 5px;
+    padding: 4px;
+    position: relative;
+    top: 20px;
     margin-left: auto;
-    margin-right: 8px;
+    margin-right: 20px;
     width: fit-content;
     font-size: 12px;
     border-radius: 4px;
@@ -31,84 +29,91 @@
 }
 
 .logo {
-    width: 4vw;
-    height: 4vw;
-    object-fit: contain;
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
     position: absolute;
-    left: 38%;
-    top: 68%;
+    left: 30%;
+    top: 50%;
     background-color: white;
     box-shadow: 0px 1px 5px rgba(17, 0, 0, 0.05);
     padding: 20px;
     border-radius: 50%;
+    /* margin-bottom: 24px; */
 }
 
 .card-body {
     background-color: white;
-    padding-left: 25px;
-    padding-bottom: 3vh;
+    /* padding-bottom: 28px; */
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
 .header-text {
-    padding-top: 72px;
+    padding-top: 92px;
+    padding-left: 25px;
     text-align: center;
     font-size: 20px;
     line-height: 24px;
-    margin-top: 0;
     margin-bottom: 10px;
+    margin-top: 0;
 }
 
 .company-body-icons {
-    width: 90%;
+    width: 288px;
     /* border: 1px solid red; */
-    margin-top: 30px;
-    margin-bottom: 0;
+    padding: 30px 0 0;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .company-body-icons img {
-    width: 2.4vw;
-    height: 2.4vw;
+    width: 33px;
+    height: 33px;
     min-width: 20px;
     min-height: 20px;
     object-fit: contain;
-    padding: 7px;
+    padding: 10px;
     border-radius: 50%;
     background-color: #F5F6F8;
     cursor: pointer;
 }
 
 .info-company , .info-contact-header{
-    margin-top: 45px;
+    margin-top: 32px;
     font-size: 15px;
     line-height: 24px;
     color: #777D8B;
-    margin-bottom: 0;
+    margin-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 5px;
 }
 .info-contact-header {
-    margin-bottom: 5px;
+    margin-bottom: 32px;
+    padding-left: 24px;
+    padding-right: 5px;
 }
 
 .info-company-content {
-    width: 90%;
+    /* width: 90%; */
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
     margin-bottom: 50px;
-    margin-right: 3px;
-    padding: 10px 0px;
+    padding-left: 24px;
+    padding-right: 18px;
     /* border: 1px solid green; */
 }
 
 .info-icons {
-    width: 1vw;
-    min-width: 20px;
+    width: 32px;
     object-fit: contain;
     margin-right: 10px;
+    padding-left: 24px;
+    padding-right: 5px;
 }
 
 .info-contact-container {

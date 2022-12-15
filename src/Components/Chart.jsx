@@ -90,11 +90,7 @@ const Chart = () => {
       <p>
       <span id='chart-value'>{dt.value} ₼ </span><span id='chart-month'>/ {dt.month}</span>
       </p>
-      <Bar data={data} options={options} height={100}  onElementsClick={elem => {
-    const dataa = data.datasets[elem[0]._datasetIndex].data;
-    console.log("Result", dataa[elem[0]._index]);
-    console.log("Test", dataa[elem._index]);
-  }}/>
+      <Bar data={data} options={options} height={65}/>
     </div>
   )
 }

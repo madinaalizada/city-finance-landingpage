@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import bellIcon from '../images/header/notification.svg';
 import calendar from '../images/header/note-text.svg';
 import mail from '../images/header/sms.svg';
@@ -11,6 +11,8 @@ const Header = () => {
     <div className='header'>
         <div className="header-icons">
             <h6>Ana səhifə</h6>
+        </div>
+        <div className="profile">
             <div className="icons">
                 <img src={bellIcon} alt="icon" className='icon'/>
                 <img src={calendar} alt="icon" className='icon'/>
@@ -19,8 +21,6 @@ const Header = () => {
                   <div className="mail-messages">12</div>
                 </div>
             </div>
-        </div>
-        <div className="profile">
             <div className="info">
               <p className='info-name'>Partnyor adı</p>
               <p className='info-subtitle'>Hesabım</p>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../Components/Header';
+import Campaigns from '../Components/Campaigns';
 import Stories from '../Components/Snapgram/Stories';
 import './MainPage.css';
 
@@ -115,21 +115,18 @@ const stories = [
 ];
 
   return (
-    <div className='main-page'>
-      <Header/>
 	  <div className='right-section'>
 		<div className="right-left-section">
       	<Stories stories={stories}/>
 		<Chart/>
-		<div className="statistic-tables-container">
-			<StatisticTable headerTitle="Aggreement" month="January" p1icon={deminus} p1text="Gözləmədə" p1percent="8%" p2icon={enminus} p2text="İcra edildi" p2percent="92%"/>
-			<StatisticTable headerTitle="Regress" month="January" p1icon={deminus} p1text="Gözləmədə" p1percent="46%" p2icon={deminus} p2text="İcra edildi" p2percent="54%"/>
-			<StatisticTable headerTitle="Financial support" month="January" p1icon={enplus} p1text="Gecikməli" p1percent="20%" p2icon={deminus} p2text="Ödəyir" p2percent="80%"/>
-		</div>
+			<div className="statistic-tables-container">
+				<StatisticTable headerTitle="Aggreement" month="January" p1icon={deminus} p1text="Gözləmədə" p1percent="8%" p2icon={enminus} p2text="İcra edildi" p2percent="92%"/>
+				<StatisticTable headerTitle="Regress" month="January" p1icon={deminus} p1text="Gözləmədə" p1percent="46%" p2icon={deminus} p2text="İcra edildi" p2percent="54%"/>
+				<StatisticTable headerTitle="Financial support" month="January" p1icon={enplus} p1text="Gecikməli" p1percent="20%" p2icon={deminus} p2text="Ödəyir" p2percent="80%"/>
+			</div>
 		</div>
 		<CompanyCard/>
 	  </div>
-    </div>
   )
 }
 
